@@ -1,0 +1,28 @@
+---
+id: 194
+title: Top 5 articles for September 2008
+date: 2008-10-06T09:24:00-04:00
+author: Ron
+layout: post
+guid: http://blog-autadv.rhcloud.com/?p=194
+permalink: /2008/10/top-5-articles-for-september-2008.html
+blogger_blog:
+  - www.automationadventures.com
+blogger_author:
+  - Ronald Bruintjes
+blogger_permalink:
+  - /2008/10/top-5-articles-for-september-2008.html
+blogger_internal:
+  - /feeds/8074648837853537542/posts/default/7687302750463658789
+categories:
+  - "2008"
+  - Miscellaneous
+  - september
+  - top 5
+---
+
+  1. (1) <a href="/2007/10/11/kensington-bluetooth-20-under-windows-vista-64-bit/" target="_blank">Kensington Bluetooth 2.0 under Windows Vista 64-bit</a>
+  2. (2) <a href="/2008/04/17/blackberry-desktop-crashes-when-reading-outlook-calendar/" target="_blank">Blackberry desktop crashes when reading Outlook Calendar</a>
+  3. (4) <a href="/2007/05/16/wow64-how-to-get-the-progress-debugger-to-run-in-vista-64-bit/" target="_blank">WoW64: How to get the Progress debugger to run in Vista 64-bit</a>
+  4. (3) <a href="/2007/11/13/setting-up-mxp-to-run-under-linux/" target="_blank">Setting up MXP to run under Linux</a>
+  5. (5) <a href="/2007/09/26/itunes-74-not-properly-installed/" target="_blank">iTunes 7.4 not properly installed</a>
