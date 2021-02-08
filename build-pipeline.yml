@@ -15,6 +15,7 @@ steps:
     touch Gemfile.lock
     chmod a+w Gemfile.lock
     docker run --rm \
+      --volume="$PWD:/srv/jekyll" \
       -i jekyll/builder:3.8 \
       jekyll build
     ls -la _site
