@@ -10,13 +10,9 @@ pool:
   vmImage: 'ubuntu-20.04'
 
 steps:
-- task: UseRubyVersion@0
-  inputs:
-    versionSpec: '~ 2.7'
-
 - script: |
     mkdir _site
-    tocuh Gemfile.lock
+    touch Gemfile.lock
     chmod a+w Gemfile.lock
     docker run --rm \
       -i jekyll/builder:3.8 \
