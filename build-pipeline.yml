@@ -10,20 +10,15 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- task: UseRubyVersion@0
-  inputs:
-    versionSpec: '>= 2.5'
+- script: |
+    mkdir _site
+    tocuh Gemfile.lock
+    chmod a+w Gemfile.lock
+    docker run --rm \
+      -i jekyll/builder:3.8 \
+      jekyll build
+    ls -la _site
 
-- script: |
-    gem install jekyll bundler
-    bundle install --retry=3 --jobs=4
-  displayName: 'bundle install'
- 
-- script: |
-    bundle install
-    jekyll build
-  displayName: 'jekyll'
- 
 - task: CopyFiles@2
   displayName: 'Copy Files to: $(Build.ArtifactStagingDirectory)'
   inputs:
