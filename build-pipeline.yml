@@ -20,7 +20,6 @@ steps:
       jekyll build
     ls -la _site
 
-- task: PublishPipelineArtifact@1
-  inputs:
-    targetPath: '$(Pipeline.Workspace)/_site'
-    artifactName: site
+- publish: $(System.DefaultWorkingDirectory)/_site
+  artifact: site
+
