@@ -19,8 +19,7 @@ steps:
       -i jekyll/builder:3.8 \
       jekyll build
     ls -la _site
-    zip -r website.zip _site
 
-- publish: $(System.DefaultWorkingDirectory)/website.zip
+- publish: $(System.DefaultWorkingDirectory)/_site
   artifact: site
 
