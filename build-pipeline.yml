@@ -21,5 +21,5 @@ steps:
     ls -la _site
 
 - publish: $(System.DefaultWorkingDirectory)/_site
-  artifact: site
+  artifact: ./site
 
